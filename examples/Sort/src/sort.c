@@ -4,7 +4,7 @@ void sort(int* vet, int tam){
 	int i, j, min, x;
     for (i=0; i<=tam-1; i++){
         min = i;
-		for (j=i+1; j<=tam; j++){
+		for (j=i+1; j<tam; j++){
 				if (vet[j] < vet[min])
 				min = j;
 		}
