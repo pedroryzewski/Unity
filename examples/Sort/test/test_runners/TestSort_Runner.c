@@ -9,5 +9,4 @@ TEST_GROUP_RUNNER(Sort)
   RUN_TEST_CASE(Sort, Test4);
   RUN_TEST_CASE(Sort, Test5);
   RUN_TEST_CASE(Sort, Test6);
-  RUN_TEST_CASE(Sort, Test7);
 }
